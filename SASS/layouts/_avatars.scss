@@ -1,31 +1,14 @@
 .section-avatar {
     padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: #f5f4fa;
+    padding-bottom: 94px;    
 }
 
-.avatar-container {
+.cards-avatar__container {
     display: flex;
     gap: 30px;
 }
 
-.avatar-container-img {
-    background-color: #fff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.avatar-img {
-    display: block;
-}
-
-.avatar-name-desc {
-    background-color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.avatar-title {
+.avatar__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -36,7 +19,23 @@
     margin-top: 0;
 }
 
-.avatar-name {
+.cards-avatar__item {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.cards-avatar__img {
+    display: block;
+}
+
+.cards-avatar__desc {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cards-avatar__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -47,7 +46,7 @@
     margin-bottom: 10px;
 }
 
-.avatar-desc {
+.cards-avatar__text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -56,13 +55,13 @@
     margin-top: 0;
 }
 
-.avatar-soc-list {
+.avatar-socials {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.avatar-soc-link {
+.avatar-socials__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -83,7 +82,7 @@
     }
 }
 
-.avatar-soc-icon {
+.avatar-socials__icon {
     fill: currentColor;
 }
 

@@ -1,18 +1,4 @@
-.foto {
-    display: flex;
-    gap: 30px;
-}
-
-.foto-img {
-    display: block;
-}
-
-.galleri-img {
-    width: calc((100% - 60px) / 3);
-    position: relative;
-}
-
-.section-title-foto {
+.directions__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -23,7 +9,22 @@
     margin-bottom: 50px;
 }
 
-.section-description-img {
+.directions__foto {
+    display: flex;
+    gap: 30px;
+}
+
+.directions__blok {
+    width: calc((100% - 60px) / 3);
+    position: relative;
+    display: block;
+}
+
+.directions__img {
+    display: block;
+}
+
+.description__blok-text {
     /* height: 70px; */
     width: 100%;
     background-color: rgba(47, 48, 58, 0.8);
@@ -33,7 +34,7 @@
     padding-bottom: 27px;
 }
 
-.description-img {
+.description__text {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;

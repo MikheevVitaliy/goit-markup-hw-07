@@ -1,11 +1,10 @@
-.hero {
+.hero__container {
     background-color: #2f303a;
     padding-top: 200px;
     padding-bottom: 200px;
     height: 600;
     max-width: 1600px;
-    margin-right: auto;
-    margin-left: auto;
+    margin:0 auto;    
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 40%),
             rgba(47, 48, 58, 0.4)),
@@ -13,13 +12,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.hero {
     text-align: center;
 }
 
-.hero .hero-title {
+.hero__title {
     display: inline-block;
     font-family: Roboto-900;
     font-weight: 900;
@@ -29,12 +25,12 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 0;
+    // margin-top: 0;
     margin-bottom: 30px;
     max-width: 696px;
 }
 
-.hero-batton {
+.hero__btn {
     display: inline-block;
     font-family: inherit;
     font-weight: 700;
@@ -50,7 +46,7 @@
     min-width: 216px;
     padding: 10px 32px;
     border: 1px solid transparent;
-    margin-top: 0;
+    // margin-top: 0;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: linear;
